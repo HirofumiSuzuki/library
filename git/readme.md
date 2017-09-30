@@ -20,6 +20,7 @@ git push https://github.com/[ユーザ名]/[リポジトリ名] [BranchName]
 
 ## Fork元とリモートリポジトリの差分更新
 ```
+git init
 git config --global url."https://".insteadOf git://
 git remote add upstream git://github.com/[ユーザ名]/[リポジトリ名].git
 git fetch upstream
