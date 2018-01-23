@@ -22,6 +22,7 @@ git push https://github.com/[ユーザ名]/[リポジトリ名] [BranchName]
 ```
 git init
 git config --global url."https://".insteadOf git://
+cd リポジトリ名
 git remote add upstream git://github.com/[ユーザ名]/[リポジトリ名].git
 git fetch upstream
 git merge upstream/master
