@@ -62,7 +62,7 @@ $prepare->execute();
 タイムゾーン設定を忘れるとグリニッジ標準時(UTC)となる
 ```
 date_default_timezone_set('Asia/Tokyo');
-$date = date("Y-m-d");
+$date = date("Y/m/d　H:i:s");
 ```
 
 今日のデータ取得SQL
