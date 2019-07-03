@@ -2,6 +2,20 @@
 
 ## 一般的なこと
 
+### phpMyAdminの導入(Linuxコマンド）
+```
+$ cd /var/www/html
+$ sudo wget https://files.phpmyadmin.net/phpMyAdmin/4.9.0.1/phpMyAdmin-4.9.0.1-all-languages.zip
+$ sudo apt install -y unzip
+$ sudo unzip phpMyAdmin-4.9.0.1-all-languages.zip
+$ cd phpMyAdmin-4.9.0.1-all-languages
+$ sudo cp config.sample.inc.php config.inc.php
+$ sudo vim config.inc.php
+```
+```
+$cfg['Servers'][$i]['host'] = 'エンドポイント';
+```
+
 ### MySQLへの接続
 ```
 //接続情報
