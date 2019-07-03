@@ -12,6 +12,7 @@ $ cd phpMyAdmin-4.9.0.1-all-languages
 $ sudo cp config.sample.inc.php config.inc.php
 $ sudo vim config.inc.php
 ```
+#### config.inc.php
 ```
 $cfg['Servers'][$i]['host'] = 'エンドポイント';
 ```
